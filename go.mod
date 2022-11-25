@@ -1,11 +1,11 @@
-module github.com/ammmze/go-amt
+module github.com/jacobweinstock/go-amt
 
 go 1.17
 
 require (
 	github.com/VictorLowther/simplexml v0.0.0-20180716164440-0bff93621230
-	github.com/ammmze/wsman v0.0.2
 	github.com/go-logr/logr v1.2.3
+	github.com/jacobweinstock/wsman v0.0.0-20221125035617-2eae65734c77
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
 	golang.org/x/tools v0.1.8
@@ -21,5 +21,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
-
-replace github.com/ammmze/wsman => github.com/jacobweinstock/wsman v0.0.0-20220921012244-df9dee44b0c4

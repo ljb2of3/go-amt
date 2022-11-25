@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ammmze/wsman"
 	"github.com/go-logr/logr"
+	"github.com/jacobweinstock/wsman"
 )
 
 // Client used to perform actions on the machine

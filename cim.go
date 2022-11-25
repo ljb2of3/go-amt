@@ -7,7 +7,7 @@ import (
 
 	"github.com/VictorLowther/simplexml/dom"
 	"github.com/VictorLowther/simplexml/search"
-	"github.com/ammmze/wsman"
+	"github.com/jacobweinstock/wsman"
 )
 
 const (

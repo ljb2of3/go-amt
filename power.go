@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	"github.com/VictorLowther/simplexml/dom"
-	"github.com/ammmze/wsman"
 	"github.com/go-logr/logr"
+	"github.com/jacobweinstock/wsman"
 )
 
 type powerState int
