@@ -24,7 +24,13 @@ func NewClient(connection Connection) (*Client, error) {
 	if path == "" {
 		path = "/wsman"
 	}
-	target := fmt.Sprintf("http://%s:%d%s", connection.Host, port, path)
+	
+	if connection.TLS {
+		target := fmt.Sprintf("https://%s:%d%s", connection.Host, port, path)
+	} else {
+		target := fmt.Sprintf("http://%s:%d%s", connection.Host, port, path)
+	}
+	
 	wsmanClient, err := wsman.NewClient(target, connection.User, connection.Pass, true)
 	if err != nil {
 		return nil, err
