@@ -1,4 +1,4 @@
-module github.com/jacobweinstock/go-amt
+module github.com/ljb2of3/go-amt
 
 go 1.17
 
