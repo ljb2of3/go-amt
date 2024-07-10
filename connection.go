@@ -11,4 +11,5 @@ type Connection struct {
 	Pass   string
 	Debug  bool
 	Logger logr.Logger
+	TLS    bool
 }
